@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  helm-chart-wikimedia:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    description: A Helm chart for Kubernetes
+    digest: 54454993d7568e89802989c125cd724d75ef8bcecb9a032ed9e1e744feba121f
+    name: helm-chart-wikimedia
+    type: application
+    urls:
+    - https://Amitrhce.github.io/wikimedia/helm-chart-wikimedia-1.0.0.tgz
+    version: 1.0.0
