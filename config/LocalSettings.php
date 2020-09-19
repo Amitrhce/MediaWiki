@@ -19,7 +19,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
-$wgSitename = "WikiMedia On K8S!";
+$wgSitename = "Mediawiki On K8S!";
 $wgMetaNamespace = "Mywiki";
 
 ## The URL base path to the directory containing the wiki;

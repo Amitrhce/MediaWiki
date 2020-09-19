@@ -1,4 +1,8 @@
-# wikimedia
+# mediawiki
+
+MEDIAWIKI PROBLEM STATEMENT:
+
+Deployment automation of mediawiki using Kubernetes with Helm Chart. 
 
 This is basic demo running wikimedia inside kubernetes in one pod.
 
@@ -15,10 +19,10 @@ This is basic demo running wikimedia inside kubernetes in one pod.
 ## Helm install
 
 ```
-helm repo add wikimedia https://Amitrhce.github.io/wikimedia/
+helm repo add wikimedia https://amitrhce.github.io/wikimedia/
 helm repo update
 helm search repo wiki
-helm install demo wikimedia/helm-chart-wikimedia
+helm install mediawiki wikimedia/helm-chart-wikimedia
 ```
 
 After installation follow the screen to port-forward and access it over http://localhost:8080
@@ -35,6 +39,8 @@ After installation follow the screen to port-forward and access it over http://l
 - Not all features might be available as all php extensions are not installed in container:)
 
 - Tested on kubernetes 1.16+ and minikube version v1.13.0 with docker engine version 19.03.12
+
+- Tested on Google Cloud GKE version 1.15.12-gke.2
 
 ## Helm uninstall
 

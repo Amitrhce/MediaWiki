@@ -8,7 +8,7 @@ data:
   000-default.conf: |
     <VirtualHost *:80>
       #ServerName www.example.com
-      ServerAdmin webmaster@localhost
+      #ServerAdmin webmaster@localhost
       DocumentRoot /var/www/html/wikimedia
       <Directory "/var/www/html/wikimedia">
       DirectoryIndex index.html index.html.var index.php
