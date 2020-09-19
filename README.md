@@ -45,7 +45,7 @@ After installation follow the screen to port-forward and access it over http://l
 ## Helm uninstall
 
 ```
-helm uninstall demo
+helm uninstall mediawiki
 ```
 
 ## Helm chart
